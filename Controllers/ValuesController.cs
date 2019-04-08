@@ -21,7 +21,7 @@ namespace pda_backend.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value id: " + id;
+            return "value";
         }
 
         // POST api/values

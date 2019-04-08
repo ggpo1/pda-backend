@@ -1,4 +1,3 @@
-# PDA - API
 **Show User**
 ----
   Returns json data about a single user.
@@ -48,4 +47,3 @@
       }
     });
   ```
-
