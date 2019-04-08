@@ -1,0 +1,14 @@
+/home/qqp/Рабочий стол/c#/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.deps.json
+/home/qqp/Рабочий стол/c#/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.runtimeconfig.json
+/home/qqp/Рабочий стол/c#/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.runtimeconfig.dev.json
+/home/qqp/Рабочий стол/c#/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.dll
+/home/qqp/Рабочий стол/c#/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.pdb
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.csprojAssemblyReference.cache
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.csproj.CoreCompileInputs.cache
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorAssemblyInfo.cache
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorAssemblyInfo.cs
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.AssemblyInfoInputs.cache
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.AssemblyInfo.cs
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorTargetAssemblyInfo.cache
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.dll
+/home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.pdb
