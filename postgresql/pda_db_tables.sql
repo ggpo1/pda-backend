@@ -1,0 +1,45 @@
+-- database name: pda_database
+-- Tables:
+    -- Users
+        -- id
+        -- username
+        -- password
+        -- email
+    -- Tasks
+        -- id
+        -- title
+        -- status
+        -- user_id
+    -- Calendar
+        -- 
+    -- Purchases
+        -- id
+        -- name
+        -- category_id
+        -- price
+        -- Purchase.Categories
+            -- id
+            -- name
+    -- Trainings
+        -- id
+        -- title
+        -- type
+        -- date
+        -- user_id
+    -- Books
+        -- id
+        -- title
+        -- icon
+        -- genre_id
+        -- user_id
+        -- Books.Genres
+            -- id
+            -- name
+    -- Archive
+        -- id
+        -- data(JSON)
+        -- content_type
+        -- user_id
+    -- Settings
+        -- user_id
+        -- data(JSON)
