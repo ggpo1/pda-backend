@@ -26,18 +26,37 @@ Subsequent response definitions will only detail the expected value of the `data
 ```json
 [
     {
-        "identifier": "floor-lamp",
-        "name": "Floor Lamp",
-        "device_type": "switch",
-        "controller_gateway": "192.1.68.0.2"
+        "user_id": "1",
+        "username": "sasha123",
+        "password": "818ba9c12d75dc18f76a959fe011b534",
+        "email": "sasha123@gmail.com"    
     },
     {
-        "identifier": "samsung-tv",
-        "name": "Living Room TV",
-        "device_type": "tv",
-        "controller_gateway": "192.168.0.9"
+        "user_id": "2",
+        "username": "roman1999",
+        "password": "5df7731bf4fbc21e7d3967a7a159d8f5",
+        "email": "roman1999@gmail.com"
     }
 ]
+```
+
+### Browse user by id
+
+**Definition**
+
+`GET /api/users/<user_id>`
+
+**Response**
+
+- `200 OK` on success
+
+```json
+{
+    "user_id": "1",
+    "username": "sasha123",
+    "password": "818ba9c12d75dc18f76a959fe011b534",
+    "email": "sasha123@gmail.com"
+}
 ```
 
 ### Registering a new device
