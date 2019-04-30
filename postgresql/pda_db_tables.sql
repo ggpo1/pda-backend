@@ -1,3 +1,8 @@
+drop database if exists pda_database;
+create database pda_database;
+
+\c pda_database;
+
 -- database name: pda_database
 -- Tables:
     -- Users
@@ -64,7 +69,6 @@ drop schema if exists Books cascade;
 drop schema if exists Calendar cascade;
 drop schema if exists Purchases cascade;
 drop schema if exists Trainings cascade;
-drop schema if exists Books cascade;
 drop schema if exists Archive cascade;
 drop schema if exists Settings cascade;
 
@@ -74,7 +78,6 @@ create schema Books;
 create schema Calendar;
 create schema Purchases;
 create schema Trainings;
-create schema Books;
 create schema Archive;
 create schema Settings;
 
@@ -112,7 +115,7 @@ create table Books.BooksInfo (
     title varchar (50),
     icon bytea,
     genreId integer references Books.BooksGenres on update cascade on delete cascade,
-    userId integer references Users on update cascade on delete cascade,
+    userId integer references Users.UsersInfo on update cascade on delete cascade,
     primary key (bookId)
 );
 -----------------------
