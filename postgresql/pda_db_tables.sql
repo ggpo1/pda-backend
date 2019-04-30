@@ -51,17 +51,7 @@ create database pda_database;
         -- userId
         -- data(JSON)
 
--- drop table if exists users cascade;
--- drop table if exists tasks cascade;
--- drop table if exists status cascade;
--- drop table if exists calendar cascade;
--- drop table if exists purchases cascade;
--- drop table if exists categories cascade;
--- drop table if exists trainings cascade;
--- drop table if exists books cascade;
--- drop table if exists genres cascade;
--- drop table if exists archive cascade;
--- drop table if exists settings cascade;
+
 
 drop schema if exists Users cascade;
 drop schema if exists Tasks cascade;
@@ -91,10 +81,15 @@ create table Users.UsersInfo (
 -----------------------
 
 -- Tasks schema tables: 
+create table Tasks.TasksStatus (
+    statusCode serial,
+    statusText varchar(50),
+    primary key (statusCode)
+);
 create table Tasks.TasksInfo (
     taskId serial,
     title varchar(50),
-    statusCode integer,
+    statusCode integer references Tasks.TasksStatus on update cascade on delete cascade,
     userId integer references Users.UsersInfo on update cascade on delete cascade,
     primary key (taskId)
 );
@@ -103,6 +98,19 @@ create table Tasks.TasksInfo (
 -- Calendar schema tables:
 -----------------------
 
+-- Purchases schema tables:
+create table Purchases.PurchaseCategories (
+    categoryId serial,
+    categoryName varchar(50),
+    primary key (categoryId)
+);
+create table Purchases.PurchasesInfo (
+    purchaseId serial,
+    purchaseName varchar(100),
+    categoryId integer references Purchases.PurchaseCategories on update cascade on delete cascade,
+    primary key (purchaseId)
+);
+-----------------------
 
 -- Books schema tables:
 create table Books.BooksGenres (
