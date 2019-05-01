@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{5226A750-1206-4659-AE64-09AD93B4B2D5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UsersController.cs">
+    <Files>
+      <File FileName="Controllers/UsersController.cs" Line="28" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pda-backend" expanded="True">
+            <Node name="pda-backend" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="UsersController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.pda-backend PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

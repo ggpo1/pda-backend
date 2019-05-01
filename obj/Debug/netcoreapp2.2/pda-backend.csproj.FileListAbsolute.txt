@@ -12,3 +12,17 @@
 /home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorTargetAssemblyInfo.cache
 /home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.dll
 /home/qqp/Рабочий стол/c#/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.pdb
+/Users/qqpesh/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.deps.json
+/Users/qqpesh/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.runtimeconfig.json
+/Users/qqpesh/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.runtimeconfig.dev.json
+/Users/qqpesh/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.dll
+/Users/qqpesh/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.pdb
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.csprojAssemblyReference.cache
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.csproj.CoreCompileInputs.cache
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorAssemblyInfo.cache
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorAssemblyInfo.cs
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.AssemblyInfoInputs.cache
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.AssemblyInfo.cs
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorTargetAssemblyInfo.cache
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.dll
+/Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.pdb
