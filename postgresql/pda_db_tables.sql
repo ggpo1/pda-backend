@@ -112,6 +112,22 @@ create table Purchases.PurchasesInfo (
 );
 -----------------------
 
+-- Trainings schema tables:
+create table Trainings.TrainingsTypes (
+    trainingTypeId serial,
+    trainingTypeName varchar(50),
+    primary key (trainingTypeId)
+);
+create table Trainings.TrainingsInfo (
+    trainingId serial,
+    title varchar(50),
+    trainingTypeId integer references Trainings.TrainingsTypes on update cascade on delete cascade,
+    trainingDate timestamp,
+    userId integer references Users.UsersInfo on update cascade on delete cascade,
+    primary key (trainingId)
+);
+-----------------------
+
 -- Books schema tables:
 create table Books.BooksGenres (
     genreId serial,
@@ -125,5 +141,28 @@ create table Books.BooksInfo (
     genreId integer references Books.BooksGenres on update cascade on delete cascade,
     userId integer references Users.UsersInfo on update cascade on delete cascade,
     primary key (bookId)
+);
+-----------------------
+
+-- Archive schema tables:
+    create table Archive.ContentTypes (
+        contentTypeId serial,
+        contentTypeName varchar(50),
+        primary key (contentTypeId)
+    );
+    create table Archive.LogInfo (
+        logId serial,
+        logData json,
+        contentTypeId integer references Archive.ContentTypes on update cascade on delete cascade,
+        userId integer references Users.UsersInfo on update cascade on delete cascade,
+        primary key (logId)
+    );
+-----------------------
+
+-- Settings schema tables:
+create table Settings.UserSettingsInfo (
+    userId integer references Users.USersInfo on update cascade on delete cascade,
+    userSettings json,
+    primary key (userId)
 );
 -----------------------
