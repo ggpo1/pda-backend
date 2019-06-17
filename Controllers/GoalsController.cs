@@ -21,8 +21,8 @@ namespace pda_backend.Controllers
         [HttpGet]
         public string Get()
         {
-            Goal goal1 = new Goal(1, "Цель 1", "Защитить диплом", 80);
-            Goal goal2 = new Goal(2, "Цель 2", "Научится играть на фортепиано", 30);
+            Goal goal1 = new Goal(1, "Цель 1", "Защитить диплом", 0);
+            Goal goal2 = new Goal(2, "Цель 2", "Научится играть на фортепиано", 0);
             Goal[] goals = new Goal[] { goal1, goal2 };
             return JsonConvert.SerializeObject(goals);
         }

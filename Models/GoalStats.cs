@@ -15,15 +15,18 @@ namespace pda_backend.Models
         int Work;
         [DataMember]
         int Done;
+        // [DataMember]
+        // double TotalProgress;
         [DataMember]
-        double TotalProgress;
+        double PersonalEfficiency;
 
-        public GoalStats(int total, int work, int done, double progress)
+        public GoalStats(int total, int work, int done, double personalEfficiency)
         {
             Total = total;
             Work = work;
             Done = done;
-            TotalProgress = progress;
+            // TotalProgress = totalProgress;
+            PersonalEfficiency = personalEfficiency;
         }
     }   
 }
