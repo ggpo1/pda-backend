@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/qqp/Рабочий стол/c#/pda-backend/pda-backend.csproj": {}
+    "C:\\Users\\pavelin\\Desktop\\diplom\\pda-backend\\pda-backend.csproj": {}
   },
   "projects": {
-    "/home/qqp/Рабочий стол/c#/pda-backend/pda-backend.csproj": {
+    "C:\\Users\\pavelin\\Desktop\\diplom\\pda-backend\\pda-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/qqp/Рабочий стол/c#/pda-backend/pda-backend.csproj",
+        "projectUniqueName": "C:\\Users\\pavelin\\Desktop\\diplom\\pda-backend\\pda-backend.csproj",
         "projectName": "pda-backend",
-        "projectPath": "/home/qqp/Рабочий стол/c#/pda-backend/pda-backend.csproj",
-        "packagesPath": "/home/qqp/.nuget/packages/",
-        "outputPath": "/home/qqp/Рабочий стол/c#/pda-backend/obj/",
+        "projectPath": "C:\\Users\\pavelin\\Desktop\\diplom\\pda-backend\\pda-backend.csproj",
+        "packagesPath": "C:\\Users\\pavelin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavelin\\Desktop\\diplom\\pda-backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/qqp/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\pavelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

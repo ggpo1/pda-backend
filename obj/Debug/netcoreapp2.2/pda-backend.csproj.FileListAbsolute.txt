@@ -26,3 +26,17 @@
 /Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorTargetAssemblyInfo.cache
 /Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.dll
 /Users/qqpesh/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.pdb
+C:/Users/pavelin/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.deps.json
+C:/Users/pavelin/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.runtimeconfig.json
+C:/Users/pavelin/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.runtimeconfig.dev.json
+C:/Users/pavelin/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.dll
+C:/Users/pavelin/Desktop/diplom/pda-backend/bin/Debug/netcoreapp2.2/pda-backend.pdb
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.csprojAssemblyReference.cache
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.csproj.CoreCompileInputs.cache
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorAssemblyInfo.cache
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorAssemblyInfo.cs
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.AssemblyInfoInputs.cache
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.AssemblyInfo.cs
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.RazorTargetAssemblyInfo.cache
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.dll
+C:/Users/pavelin/Desktop/diplom/pda-backend/obj/Debug/netcoreapp2.2/pda-backend.pdb

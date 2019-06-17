@@ -3,56 +3,6 @@ create database pda_database;
 
 \c pda_database;
 
--- database name: pda_database
--- Tables:
-    -- Users
-        -- userId
-        -- username
-        -- password
-        -- email
-    -- Tasks
-        -- taskId
-        -- title
-        -- Status.statusCode
-            -- statusCode
-            -- statusText
-        -- userId
-    -- Calendar
-        -- 
-    -- Purchases
-        -- purchaseId
-        -- name
-        -- categorId
-        -- price
-        -- Purchase.Categories
-            -- categoryId
-            -- name
-    -- Trainings
-        -- trainingId
-        -- title
-        -- type
-        -- date
-        -- userId
-    -- Books
-        -- bookId
-        -- title
-        -- icon
-        -- genreId
-        -- userId
-        -- Books.Genres
-            -- genreId
-            -- name
-    -- Archive
-        -- id
-        -- data(JSON)
-        -- content_type
-        -- user_id
-    -- Settings
-        -- userId
-        -- data(JSON)
-
-
-
 drop schema if exists Users cascade;
 drop schema if exists Tasks cascade;
 drop schema if exists Books cascade;
@@ -129,6 +79,7 @@ create table Trainings.TrainingsInfo (
 -----------------------
 
 -- Books schema tables:
+-- TODO Books period
 create table Books.BooksGenres (
     genreId serial,
     genreName varchar(50),
@@ -144,25 +95,15 @@ create table Books.BooksInfo (
 );
 -----------------------
 
--- Archive schema tables:
-    create table Archive.ContentTypes (
-        contentTypeId serial,
-        contentTypeName varchar(50),
-        primary key (contentTypeId)
-    );
-    create table Archive.LogInfo (
-        logId serial,
-        logData json,
-        contentTypeId integer references Archive.ContentTypes on update cascade on delete cascade,
-        userId integer references Users.UsersInfo on update cascade on delete cascade,
-        primary key (logId)
-    );
------------------------
-
--- Settings schema tables:
-create table Settings.UserSettingsInfo (
-    userId integer references Users.USersInfo on update cascade on delete cascade,
-    userSettings json,
-    primary key (userId)
+-- Trainings schema tables:
+create table Trainings.TrainingsInfo (
+	trainingId serial,
+	trainingTypeId integer references Trainings.TrainingTypes on update cascade on delete cascade,
+	trainingDate timestamp
+	primary key (trainingId)
 );
 -----------------------
+
+
+
+
